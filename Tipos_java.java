@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tipos_java {
+public class Tipos_java {
         public static void main(String[] args) {
             
               
