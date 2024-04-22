@@ -22,6 +22,7 @@ public class Condicionais {
 
         // 1= precisa de ler a idade e se for mais do 18 anos determina maioridade, se manoe menoridade; vai ter entrada de dados no teclado
         // 2= saber ser um numero é para ou impar
+        // 3= idade pra saber se o voto é obrigtório
         Scanner entradaDados = new Scanner(System.in);
 
         /// 1:
@@ -48,6 +49,23 @@ public class Condicionais {
             else if ( parInpar%2 != 0) {
                 System.out.println("Numero inpar");
             }
+
+        /// 3:
+            System.out.println("digite sua idade, para saber se é obrigado votar");
+            int suaIdade = entradaDados.nextInt();
+
+            if (suaIdade >= 18 && suaIdade <= 70) {
+                System.out.println("Voto Obrigatorio!!!");
+            }
+            
+            else if (suaIdade < 18 && suaIdade >= 16 || suaIdade > 70) {
+                System.out.println("Voto Facultativo!!");
+            }
+        
+            else if (suaIdade < 16 ) {
+                System.out.println("Voto Proibido!");
+            }
+        
 
     }
 }
