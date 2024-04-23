@@ -1,5 +1,5 @@
 
-
+package basico;
 public class operacoes {
 
     public static String contador(int ii, int ff) {

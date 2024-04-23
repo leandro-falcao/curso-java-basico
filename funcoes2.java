@@ -1,5 +1,5 @@
 import operacoes;
-
+package basico;
 
 public class funcoes2 {
 
