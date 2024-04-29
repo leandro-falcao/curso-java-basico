@@ -7,3 +7,4 @@ public class NumeroStringParaInteiro {
         System.out.println(numero);
     }
 }
+//

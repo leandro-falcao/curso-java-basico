@@ -6,7 +6,7 @@ public class Operacoes1 {
         for (int contar = ii; contar <= ff; contar++) {
             somador += contar + " ";
         }
-
         return somador;
     }
 }
+//

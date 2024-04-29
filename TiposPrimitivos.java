@@ -16,5 +16,5 @@ public class TiposPrimitivos {
 
         System.out.println(comparador);
     }
-
 }
+//

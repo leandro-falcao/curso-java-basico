@@ -9,8 +9,6 @@ public class CompararString {
 
         System.out.println(resultado);
 
-
-        
     }
-    
 }
+//
