@@ -1,4 +1,4 @@
-public class numero_string_para_float {
+public class NumeroStringParaFloat {
     public static void main(String[] args) {
 
         String numeroString = "51";
