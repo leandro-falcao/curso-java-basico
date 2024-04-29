@@ -1,8 +1,8 @@
-public class operadorTernario {
+public class OperadorTernario {
     public static void main(String[] args) {
         int n1, n2, r;
-        n1 = 10; n2 = 15;
-
+        n1 = 10;
+        n2 = 15;
 
         r = (n1 > n2) ? 0 : 1;
 

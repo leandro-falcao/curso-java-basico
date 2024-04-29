@@ -1,6 +1,6 @@
-public class numero_string_para_inteiro {
+public class NumeroStringParaInteiro {
     public static void main(String[] args) {
-        
+
         String numeroString = "884";
         int numero = Integer.parseInt(numeroString);
 

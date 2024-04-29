@@ -1,10 +1,9 @@
 import java.util.*;
 
-public class masisCondicinais {
+public class MasisCondicinais {
     public static void main(String[] args) {
-        
-        Scanner entradaDados = new Scanner(System.in);
 
+        Scanner entradaDados = new Scanner(System.in);
 
         System.out.println("digite de 1 a 8, quantiadde de pernas");
         int qtdPernas = entradaDados.nextInt();
@@ -18,25 +17,23 @@ public class masisCondicinais {
                 break;
             case 2:
                 tipo = "Bipede";
-                break;    
+                break;
             case 4:
                 tipo = "Quadrupede";
-                break;       
+                break;
             case 6:
                 tipo = "Araquinide 6 patas";
-                break;       
+                break;
             case 8:
-                tipo = "Araquinide 8 patas";    
-                break;       
+                tipo = "Araquinide 8 patas";
+                break;
 
             default:
                 tipo = "Anormal";
                 break;
         }
-            
-            System.out.println("é um: " +tipo);
+
+        System.out.println("é um: " + tipo);
     }
-
-
 
 }

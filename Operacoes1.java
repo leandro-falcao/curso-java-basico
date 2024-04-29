@@ -1,6 +1,5 @@
 
-package basico;
-public class operacoes {
+public class Operacoes1 {
 
     public static String contador(int ii, int ff) {
         String somador = "";
